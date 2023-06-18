@@ -2,7 +2,7 @@
   "name": "algo-vsc",
   "displayName": "algo-vsc",
   "description": "French opinionated syntax highlighting for .algo files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.79.0"
   },
