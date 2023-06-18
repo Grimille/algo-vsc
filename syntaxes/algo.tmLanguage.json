@@ -7,7 +7,7 @@
       "include": "#keywords"
     },
     {
-      "@clude": "#comments-line"
+      "include": "#comments-line"
     },
     {
       "include": "#comments-block"
