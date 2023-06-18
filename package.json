@@ -30,8 +30,8 @@
         "extensions": [".algo"],
         "configuration": "./language-configuration.json",
         "icon": {
-          "dark": "./icons/ext-icon.png",
-          "light": "./icons/ext-icon.png"
+          "dark": "/icons/ext-icon.png",
+          "light": "/icons/ext-icon.png"
         }
       }
     ],
