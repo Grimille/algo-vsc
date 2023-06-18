@@ -1,0 +1,66 @@
+{
+  "name": "ALGO",
+  "scopeName": "source.algo",
+  "fileTypes": [".algo"],
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "@clude": "#comments-line"
+    },
+    {
+      "include": "#comments-block"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\b(ALGO|D(É|E)BUT|FIN|VARIABLES|CONSTANTES|LIRE|(É|E)CRIRE|SI|SINON|ALORS|FINSI|TANTQUE|FINTANTQUE|R(E|É)P(E|É)TER|JUSQU'(À|A)|FINPOUR|ENREGISTREMENT|FINENREGISTREMENT|RETOURNER|CAS O(U|Ù)|FONCTION|REDIMENSIONNER|COMPTEUR)\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bPOUR\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bALLANT\\b(?=\\s+DE)"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bDE\\b(?=\\s+\\d+)"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bÀ\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bFAIRE\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bOU\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\bET\\b"
+        }
+      ]
+    },
+    "comments-line": {
+      "name": "comment.line.algo",
+      "match": "//.*$"
+    },
+    "comments-block": {
+      "name": "comment.block.algo",
+      "begin": "/\\*",
+      "end": "\\*/",
+      "captures": {
+        "0": { "name": "punctuation.definition.comment.algo" }
+      }
+    }
+  }
+}
