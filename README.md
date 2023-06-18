@@ -1,71 +1,49 @@
-# algo-vsc README
+# ALGO Extension
 
-This is the README for your extension "algo-vsc". After writing up a brief description, we recommend including the following sections.
+The ALGO extension provides syntax highlighting for ALGO files in Visual Studio Code. This extension supports only french and is opinionated for specific personal use cases.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Syntax highlighting for ALGO keywords.
+- Comment highlighting for both single-line and block comments.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Launch Visual Studio Code.
+2. Open the Extensions view by clicking on the square icon in the left sidebar or by pressing `Ctrl+Shift+X`.
+3. Search for "ALGO" in the Extensions view search box.
+4. Click on the "Install" button for the ALGO extension by OpenAI.
+5. After installation, the extension will be activated automatically.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+Once the ALGO extension is installed, it will automatically apply syntax highlighting to any `.algo` files you open in Visual Studio Code. The keywords, comments, and other language elements will be highlighted according to the ALGO language specification.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Supported Keywords
 
-## Extension Settings
+The ALGO extension provides syntax highlighting for the following ALGO keywords:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- ALGO, DÉBUT, FIN, VARIABLES, CONSTANTES, LIRE, ÉCRIRE, SI, SINON, ALORS, FINSI, TANTQUE, FINTANTQUE, RÉPETER, JUSQU'À, POUR, ALLANT, DE, À, FAIRE, FINPOUR, ENREGISTREMENT, FINENREGISTREMENT, RETOURNER, CAS, OU, ET.
 
-For example:
+Please note that the matching of keywords is case-insensitive, allowing for flexibility in your code.
 
-This extension contributes the following settings:
+## Comments
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+The ALGO extension supports highlighting both single-line and block comments.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Single-line comments: Use the `//` notation to add comments to your code. Any text following `//` on the same line will be considered a comment and highlighted accordingly.
+- Block comments: Enclose your comments between `/*` and `*/` to create block comments. All text between these delimiters will be treated as a comment and highlighted accordingly.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### Version X.Y.Z
 
-### 1.0.0
+- Initial release of the ALGO extension.
+- Added syntax highlighting for ALGO keywords.
+- Added comment highlighting for both single-line and block comments.
 
-Initial release of ...
+## Feedback and Contributions
 
-### 1.0.1
+If you have any feedback, suggestions, or issues with the ALGO extension, please don't hesitate to [submit an issue](https://github.com/your-username/your-repo/issues) in the GitHub repository.
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+If you would like to contribute to the development of this extension, you're welcome to submit [pull requests](https://github.com/your-username/your-repo/pulls) with your proposed changes.
