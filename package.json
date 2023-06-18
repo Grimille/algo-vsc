@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/Grimille/algo-vsc"
   },
-  "publisher": "Mickaël Dhainaut (Grimille)",
+  "publisher": "Grimille",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
