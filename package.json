@@ -17,6 +17,25 @@
         "command": "algo-vsc.helloWorld",
         "title": "Hello World"
       }
+    ],
+    "languages": [
+      {
+        "id": "algo",
+        "aliases": ["ALGO", "Algo"],
+        "extensions": [".algo"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "dark": "./icons/ext-icon.png",
+          "light": "./icons/ext-icon.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "algo",
+        "scopeName": "source.algo",
+        "path": "./syntaxes/algo.tmLanguage.json"
+      }
     ]
   },
   "scripts": {
