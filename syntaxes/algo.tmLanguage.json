@@ -18,7 +18,7 @@
       "patterns": [
         {
           "name": "keyword.algo",
-          "match": "(?i)\\b(ALGO|D(É|E)BUT|FIN|VARIABLES|CONSTANTES|LIRE|(É|E)CRIRE|SI|SINON|ALORS|FINSI|TANTQUE|FINTANTQUE|R(E|É)P(E|É)TER|JUSQU'(À|A)|FINPOUR|ENREGISTREMENT|FINENREGISTREMENT|RETOURNER|CAS O(U|Ù)|FONCTION|REDIMENSIONNER|COMPTEUR|FINCAS|FINFONCTION)\\b"
+          "match": "(?i)\\b(ALGO|D(É|E)BUT|FIN|VARIABLES|CONSTANTES|LIRE|(É|E)CRIRE|SI|SINON|ALORS|FINSI|TANTQUE|FINTANTQUE|R(E|É)P(E|É)TER|JUSQU'(À|A)|FINPOUR|ENREGISTREMENT|FINENREGISTREMENT|RETOURNER|FONCTION|REDIMENSIONNER|COMPTEUR|FINCAS|FINFONCTION)\\b"
         },
         {
           "name": "keyword.algo",
@@ -47,6 +47,14 @@
         {
           "name": "keyword.algo",
           "match": "(?i)\\bET\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\CAS O(U|Ù)\\b"
+        },
+        {
+          "name": "keyword.algo",
+          "match": "(?i)\\VAUT\\b"
         }
       ]
     },
