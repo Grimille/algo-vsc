@@ -50,11 +50,11 @@
         },
         {
           "name": "keyword.algo",
-          "match": "(?i)\\CAS O(U|Ù)\\b"
+          "match": "(?i)\\bCAS O(U|Ù)\\b"
         },
         {
           "name": "keyword.algo",
-          "match": "(?i)\\VAUT\\b"
+          "match": "(?i)\\bVAUT\\b"
         }
       ]
     },
