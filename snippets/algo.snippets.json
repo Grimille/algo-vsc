@@ -1,0 +1,52 @@
+{
+  "Elements de base d'un algorithme": {
+    "prefix": "algo!",
+    "body": [
+      "ALGO ${0:NOM_ALGO}",
+      "CONSTANTES",
+      "",
+      "VARIABLES",
+      "",
+      "DEBUT",
+      "",
+      "FIN"
+    ],
+    "description": "Elements de base d'un algorithme."
+  },
+
+  "Raccourci variable": {
+    "prefix": "var",
+    "body": ["VARIABLES"],
+    "description": "Raccourcis VARIABLES."
+  },
+
+  "Raccourci constantes": {
+    "prefix": "const",
+    "body": ["CONSTANTES"],
+    "description": "Raccourcis CONSTANTES."
+  },
+
+  "Raccourci ALGO": {
+    "prefix": "algo",
+    "body": ["ALGO ${0:NOM_ALGO}"],
+    "description": "Raccourcis ALGO NOM ALGO."
+  },
+
+  "Raccourci écrire": {
+    "prefix": "ecrire",
+    "body": ["ECRIRE(\"$0\")"],
+    "description": "Raccourcis fonction ecrire."
+  },
+
+  "Raccourci lire": {
+    "prefix": "lire",
+    "body": ["LIRE(\"$0\")"],
+    "description": "Raccourcis fonction lire."
+  },
+
+  "Raccourci debut/fin": {
+    "prefix": "debut",
+    "body": ["DEBUT", "$0", "FIN"],
+    "description": "Raccourcis DEBUT/FIN."
+  }
+}
